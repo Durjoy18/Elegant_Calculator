@@ -7,19 +7,7 @@ public class branch_1 {
     int student ;
 
     public branch_1(String name, String id, float mark, int number_classes, int student) {
-        this.name = name;
-        this.id = id;
-        this.mark = mark;
-        this.number_classes = number_classes;
-        this.student = student;
-    }
-
-    public int getStudent() {
-        return student;
-    }
-
-    public void setStudent(int student) {
-        this.student = student;
+ 
     }
 
     public void setNumber_classes(int number_classes) {
