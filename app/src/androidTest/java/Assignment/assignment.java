@@ -3,10 +3,20 @@ package Assignment;
 public class assignment {
     int roll;
     String name ;
-    assignment (String s , int r )
-    {
-        this.roll = r;
-        this.name = s;
+    int phone;
+
+    public assignment(int roll, String name, int phone) {
+        this.roll = roll;
+        this.name = name;
+        this.phone = phone;
+    }
+
+    public int getPhone() {
+        return phone;
+    }
+
+    public void setPhone(int phone) {
+        this.phone = phone;
     }
 
     public int getRoll() {
